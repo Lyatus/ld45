@@ -227,7 +227,7 @@
     "// Ruler",
     "",
     "function ruler_draw() {",
-    "  for(let i = flr(offset / ruler_step); i < (offset + 32) / ruler_step; i++) {",
+    "  for(let i = max(1, flr(offset / ruler_step)); i < (offset + 32) / ruler_step; i++) {",
     "    const y = (32 - i * ruler_step + offset) * part_cell_size;",
     "    line(120, y, 122, y, ruler_color);",
     "    print(124, y - 2, i, ruler_color);",
