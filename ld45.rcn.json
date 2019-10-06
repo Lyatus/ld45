@@ -21,6 +21,8 @@
     "const stock_part_count = 2;",
     "",
     "const ruler_step = 16;",
+    "",
+    "// Colors",
     "const ruler_color = 8;",
     "",
     "// Sprites",
