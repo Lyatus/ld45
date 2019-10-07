@@ -89,7 +89,7 @@
     "  update = game_update;",
     "  draw = game_draw;",
     "  palt(0, true);",
-    "  mus(rnd(2) * 16);",
+    "  mus((rnd(5) == 0) ? 16 : 0);",
     "  ",
     "  frame = 0;",
     "  move_wait = 0;",
