@@ -280,7 +280,7 @@
     "  screenshake = 1;",
     "  ",
     "  if(gameover_test()) {",
-    "    gameover_init();",
+    "  gameover_init();",
     "  }",
     "}",
     "",
