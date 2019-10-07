@@ -422,7 +422,7 @@
     "}",
     "",
     "function deadzone_update() {",
-    "  deadzones = deadzones.filter(dz => dz.y >= offset);",
+    "  deadzones = deadzones.filter(dz => dz.y + dz.h >= offset);",
     "  ",
     "  while(deadzones.length < deadzone_count) {",
     "    deadzones.push(deadzone_new());",
