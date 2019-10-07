@@ -443,7 +443,7 @@
     "",
     "function deadzone_new() {",
     "  const start_offset = frame == 0 ? 8 : 32;",
-    "  const max_size = 10; flr(offset / 64) + 2;",
+    "  const max_size = flr(offset / 64) + 2;",
     "  while(true) {",
     "    const deadzone = {",
     "      w: rnd(max_size) + 1,",
