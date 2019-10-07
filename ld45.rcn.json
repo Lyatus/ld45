@@ -580,7 +580,7 @@
     "    const back_offset = offset / (i+1);",
     "    ",
     "    // Panning top",
-    "    const panning = (frame / ((i+1) * 3)) % back_width_px;",
+    "    const panning = (frame / ((i+3) * 2)) % back_width_px;",
     "    map(64 + i * back_width, 0, panning, -scroll + back_offset, back_width, 48);",
     "    map(64 + i * back_width, 0, panning - back_width_px, -scroll + back_offset, back_width, 48);",
     "    ",
