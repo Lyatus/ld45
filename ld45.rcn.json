@@ -299,7 +299,7 @@
     "    if(part_collide(part, project_pos)) {",
     "      project_pos.y++;",
     "      return project_pos;",
-    "    } else if(offset > 0 && part_min_height(part, project_pos.y) <= offset) {",
+    "    } else if(offset > 0 && part_min_height(part, project_pos.y) < offset) {",
     "      break;",
     "    } else {",
     "      project_pos.y--;",
