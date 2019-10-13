@@ -98,7 +98,6 @@
     "  part_count = start_part_count;",
     "  placed_part_count = 0;",
     "  score = 0;",
-    "  gameover = false;",
     "  board = {};",
     "  current_part_x = board_width >> 1;",
     "  part_new();",
